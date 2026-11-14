@@ -1,7 +1,7 @@
 ---
 name: wizardos-tracker
 description: Use when working with Wizard development Goals, Features and Bugs on GitHub.
-version: 0.33.7
+version: 0.33.8
 author: Humanity Labs, Hermes Agent
 license: GPL-3.0-only
 platforms: [linux, macos]
@@ -67,6 +67,7 @@ The default list sort is **Your turn first**: what the viewer can act on now (th
 The Update manager and Try changes live in the Tracker's **Settings** (WizardOS and every app, installed vs latest, Update / Update all). Cards show Update or the switch just in time, in their one action area.
 
 ## Rules for agents
+- **Link the exact item** (0.33.8): whenever you mention a Tracker item to the owner, give the relative link `/wizardos-tracker/#item/<owner>/<repo>/<number>` (e.g. `/wizardos-tracker/#item/humanitylabs-org/wizard-ux/1191`); it opens that card in its own tab. Never say "find it in the Tracker".
 - Read freely: `board_list` (`repo`, `type` all|goal|bug — features come with `all`, `state` open|closed), `board_get` (`issue` "owner/repo#123" or `repo` + `number`), `board_flow` (time per stage, kick-backs), `builder_status`, `try_status`.
 - Write: `board_report_bug`, `board_report_feature`, `board_comment`, `ai_review_pass` / `ai_review_fail`. Write a clear first paragraph (rows show it, cut at `---`) and assign the owner on GitHub. Link PRs with `Fixes owner/repo#123`.
 - Goals: never open, close or reopen on your own. `board_add_goal` only when a human asked, with their exact words as `owner_request`.

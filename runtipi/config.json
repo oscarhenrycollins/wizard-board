@@ -11,7 +11,7 @@
   ],
   "description": "The WizardOS team's tracker: goals, core and app features and bugs across humanitylabs-org, each moving Queued \u2192 Building \u2192 AI review \u2192 Human review \u2192 Done, with the builder switch, Try it switches and Works / Doesn't work for reviews. Open it and tap Sign in with GitHub: approve the short code on github.com and you're in. For WizardOS team members (your own GitHub account; agents use the Tracker's tools). When a new version is out, the Tracker shows an Update button on its main screen.",
   "tipi_version": 35,
-  "version": "0.33.7",
+  "version": "0.33.8",
   "source": "https://github.com/humanitylabs-org/wizardos-tracker",
   "exposable": false,
   "supported_architectures": [
